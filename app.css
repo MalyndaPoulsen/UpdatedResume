@@ -1,0 +1,137 @@
+body, html{
+overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, body, p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#main{
+   background:grey url('/img/Gallery2.jpg') center center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+    height: 100%;
+}
+/*navbar*/
+/*.navbar{
+    background-color: black;
+}
+.list-inline{
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-left: 0px;
+}
+.list-inline li{
+  
+    margin-left: -15px;
+    padding-left: 0px;
+}
+
+
+
+#heading h1{
+   color: e7ae22;
+   padding-top:120px;
+   font-size: 80px;
+
+   }
+   #heading p{
+   color: grey;
+   margin-top:0;
+   font-size: 20px;
+   }
+   .nav a{
+       color: grey;
+        background-color:transparent !important;
+   }
+   .nav a:hover{
+       background-color:transparent !important;
+      color:goldenrod;
+   }
+
+   #heading{
+       text-align:center;
+       padding-top:150px;
+   }*/
+#work{
+    padding-top:100px;
+}
+#work .row{
+    margin-top: 35px;
+    text-align: center;
+}
+#port-filters{
+    /*display: table;*/
+    margin-top:0;
+        margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 45px;
+}
+#port-filters .filt{
+    margin-top: 5px;
+}
+.filt ul{
+    margin-top: 0px;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-align: center;
+  
+}
+.filt a{
+       color: black;
+}
+.filt a:hover{
+       color: grey;
+}
+.filt ul li{
+    display: inline;
+        position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+.portfolio-grid-wrapper{
+        margin: 0 -5px;
+}
+.portfolio-grid{
+    margin-top: 25px;
+    position: relative;
+    height: 500px;
+    width:100%;
+    display: block;
+}
+
+.portfolio-caption {
+  color: black;
+}
+#bookStore{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+}
+
+#slap{
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+height: 460px; 
+left: 335px; 
+top: 0px;
+}
+#todo{
+animation-duration: 2s;
+animation-delay: 3s;
+animation-iteration-count: 1;
+}
+#portfolio{
+border: 2px solid goldenrod;
+background: transparent;
+border-radius: 5px;
+font-size: 25px;
+color: white;
+opacity: .5;
+height: 100px;
+width: 200px;
+}
