@@ -15,14 +15,29 @@ height: 100%;
 #main h2{
     margin-top: 100px;
     text-align: center;
-    color: goldenrod;
-
-
+       color: e7ae22;
+    font-family: 'Mrs Saint Delafield', cursive;
+   padding-top:0px;
+   font-size: 100px;
 }
-#main h5{
+
+
+
+#main h4{
+      font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     color: white;
     margin-bottom: 0px;
+}
+#main h5{
+      font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px; 
+}
+
+#module-title{
+    color: red;
 }
 /*navbar*/
 /*.navbar{
@@ -146,9 +161,9 @@ border-radius: 5px;
 font-size: 200%;
 color: white;
 opacity: .5;
-margin-top: 50px;
-height: 100px;
-width: 200px;
+margin-top: 20px;
+height: 80px;
+width: 160px;
 padding-left: 5px;
 padding-right: 5px;
 margin-right: 5px;
@@ -160,14 +175,12 @@ margin-left: 5px;
 #buttons{
     text-align: center;
 }
-#race .progress{
-margin-bottom: 60px;
-}
+
 
 .progress-bar{
     background: transparent;
     border: 1px solid white;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 #about{
     padding-top: 110px;
@@ -176,19 +189,26 @@ margin-bottom: 60px;
 }
 .about img{
     height: 50%;
-
+    vertical-align: left;
 }
 .about{
-    margin-top: 42px;
+    margin-top: 45px;
 }
-.about p, li{
-   text-align: left;
-font-size: 15px;
+
+.education h2, h4, h5, p, img{
+    text-align: left;
+    color: grey;
+    /*margin-left: 12%;*/
 }
 #about-me {
+    color: grey;
     text-align: center;
      padding-bottom:20px;
      margin-bottom: 20px;
+}
+#race label{
+    text-align: left !important;
+    color: grey;
 }
 
 #race{
@@ -209,7 +229,7 @@ font-size: 15px;
     margin-bottom: 41px;
 }
 #race .progress{
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 #portfolio-grid{
         position: relative;
@@ -223,20 +243,19 @@ font-size: 15px;
     list-style-type: none;  
 }
 
-#sign img{
-    height: 400px;
+.education img{
+position: relative;
+margin-right: 5%;
+margin-top: 67px;
+height: 40%;
+top: 0%;
+left: 0%;
 }
-
-
-/*.about{
-    background: black url('img/picofme.jpg') center left no-repeat;
-    position: absolute;
-   height: 100%;
-    bottom: -100%;
-    left: 5%;
-    margin-top: 40px;
-    margin-right: 10px;
-}*/
+.caption h3, p{
+    text-align: center;
+    /*margin-left: 5%;*/
+    margin-top: 10px;
+}
 
 .module-skill {
     position: relative;

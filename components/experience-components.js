@@ -6,8 +6,10 @@
             controller: ExperienceController,
         })
 
+
+
     function ExperienceController() {
-        var ec = this;
+        var ac = this;
         var num = -8;
         var numb = 0;
 
@@ -66,19 +68,19 @@
 
 
 
-        ec.moveBar = function (id, numb) {
+        ac.moveBar = function (id, numb) {
             $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
         }
 
-        ec.moveHorse = function (id, num) {
+        ac.moveHorse = function (id, num) {
             $("#horse-" + id).animate({ left: num + '%' }, 3000, 'linear');
         };
 
-        ec.reset = function (id, start) {
+        ac.reset = function (id, start) {
             $("#horse-" + id).animate({ left: start + '%' }, 1, 'linear');
         };
 
-        ec.resetBar = function (id, starter) {
+        ac.resetBar = function (id, starter) {
             $("#horse-" + id + "-progress").animate({ 'width': starter + '%' }, 1, 'linear');
         }
 
@@ -87,8 +89,8 @@
                 var x = paramsArray[i].id;
                 var f = paramsArray[i].start;
                 var g = paramsArray[i].starter;
-                ec.reset(x, f);
-                ec.resetBar(x, g);
+                ac.reset(x, f);
+                ac.resetBar(x, g);
             }
         }
 
@@ -98,8 +100,8 @@
                 var y = paramsArray[i].num;
                 var d = paramsArray[i].numb;
 
-                ec.moveBar(x, d);
-                ec.moveHorse(x, y);
+                ac.moveBar(x, d);
+                ac.moveHorse(x, y);
 
             }
 
