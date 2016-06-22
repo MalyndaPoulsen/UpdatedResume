@@ -119,22 +119,28 @@ height: 100%;
     padding-right: 15px;
     color: white;
 }
-.portfolio-grid-wrapper{
+/*.portfolio-grid-wrapper{
         margin: 0 -5px;
       
-}
+}*/
 .portfolio-grid{
     margin-top: 25px;
     position: relative;
-    height: 500px;
+    height: 700px;
     width:100%;
+    margin-left: -15px;
+    margin-right: -15px;
     display: block;
     
+}
+portfolio-item{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .portfolio-caption {
   color: white;
-}
+}*/
 #bookStore{
 animation-duration: 2s;
 animation-delay: 0s;
@@ -213,27 +219,27 @@ margin-left: 5px;
 #race{
     margin-top: 42px;
     position: relative;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 0px;
     margin-left: 0px;
     margin-right:0px;
 }
-#horse-6{
+/*#horse-6{
     height:60%; 
     left: num; 
     position: absolute; 
     top:-60%;
-}
+}*/
 #race h6{
     margin-bottom: 41px;
 }
 #race .progress{
     margin-bottom: 20px;
 }
-#portfolio-grid{
+/*#portfolio-grid{
         position: relative;
     height: 600px;
-}
+}*/
 .text{
     color: red;
     text-align: center;
@@ -273,7 +279,22 @@ left: 0%;
       margin-left: -15px;
       margin-right: -15px;
 }
-#box{
+.portfolio-item img{
+    padding-top: 5px;
+padding-right: 5px;
+padding-left: 5px;
+width: 100%;
+
+}
+/*#box{
     width: 25%; 
     background-color: blue;
+    padding-bottom: 25%;
+    position: relative;
+}*/
+body, html{
+   height: 100%;
 }
+.wrapper{
+    overflow: hidden
+    }
