@@ -72,13 +72,6 @@
             $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
         }
 
-        ac.moveHorse = function (id, num) {
-            $("#horse-" + id).animate({ left: num + '%' }, 3000, 'linear');
-        };
-
-        ac.reset = function (id, start) {
-            $("#horse-" + id).animate({ left: start + '%' }, 1, 'linear');
-        };
 
         ac.resetBar = function (id, starter) {
             $("#horse-" + id + "-progress").animate({ 'width': starter + '%' }, 1, 'linear');
@@ -87,9 +80,9 @@
         var reset = function () {
             for (var i = 0; i < paramsArray.length; i++) {
                 var x = paramsArray[i].id;
-                var f = paramsArray[i].start;
+              
                 var g = paramsArray[i].starter;
-                ac.reset(x, f);
+              
                 ac.resetBar(x, g);
             }
         }
@@ -97,11 +90,11 @@
         var getParams = function () {
             for (var i = 0; i < paramsArray.length; i++) {
                 var x = paramsArray[i].id;
-                var y = paramsArray[i].num;
+              
                 var d = paramsArray[i].numb;
 
                 ac.moveBar(x, d);
-                ac.moveHorse(x, y);
+          
 
             }
 
@@ -111,7 +104,7 @@
 
         // reset horses
         var waypoint5 = new Waypoint({
-            element: document.getElementById('big-deal'),
+            element: document.getElementById('about'),
             handler: function (direction) {
                 if (direction === 'down') {
                     reset();

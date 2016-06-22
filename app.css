@@ -166,12 +166,10 @@ animation-iteration-count: 1;
 .btn{
 position: absolute;
 border: 2px solid goldenrod;
-background: white;
-opacity: .3;
+background: transparent;
 border-radius: 5px;
 font-size: 200%;
 color: goldenrod;
-
 margin-top: 20px;
 height: 80px;
 width: 160px;
@@ -179,6 +177,10 @@ padding-left: 5px;
 padding-right: 5px;
 margin-right: 5px;
 margin-left: 5px;
+}
+.btn:hover{
+    color: white;
+    border: white;
 }
 .btn-group{
     display: inline-block;
@@ -226,21 +228,17 @@ margin-left: 5px;
     margin-top: 42px;
     position: relative;
     padding-left: 10px;
-    padding-right: 0px;
+    padding-right: 10px;
     margin-left: 0px;
     margin-right:0px;
 }
-/*#horse-6{
-    height:60%; 
-    left: num; 
-    position: absolute; 
-    top:-60%;
-}*/
+
 #race h6{
     margin-bottom: 41px;
 }
 #race .progress{
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 /*#portfolio-grid{
         position: relative;
