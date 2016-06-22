@@ -2,7 +2,6 @@
     angular.module("UpdatedResume")
     .component('experienceComponents', {
         templateUrl: 'components/experience-components.html',
-
             controller: ExperienceController,
         })
 
@@ -12,7 +11,7 @@
         var ac = this;
         var num = -8;
         var numb = 0;
-
+        var starter = 0;
 
         var paramsArray = [{
             id: 1,
@@ -66,11 +65,13 @@
 
         ];
 
-
-
-        ac.moveBar = function (id, numb) {
-            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
+ ac.moveBar = function (id, numb) {
+            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2000, 'linear');
         }
+
+        // ac.moveBar = function (id, numb) {
+        //     $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
+        // }
 
 
         ac.resetBar = function (id, starter) {
@@ -90,25 +91,20 @@
         var getParams = function () {
             for (var i = 0; i < paramsArray.length; i++) {
                 var x = paramsArray[i].id;
-              
                 var d = paramsArray[i].numb;
-
                 ac.moveBar(x, d);
-          
-
             }
-
         }
 
 
 
         // reset horses
         var waypoint5 = new Waypoint({
-            element: document.getElementById('about'),
+            element: document.getElementById('jump'),
             handler: function (direction) {
                 if (direction === 'down') {
-                    reset();
-                    // getParams();
+                    // reset();
+                    getParams();
                 }
             }
         })
@@ -116,9 +112,7 @@
         var waypoint = new Waypoint({
             element: document.getElementById('about'),
             handler: function (direction) {
-                if (direction === 'down') {
-                    getParams();
-                } if(direction === 'up'){
+                if (direction === 'up') {
                     reset();
                 }
             }

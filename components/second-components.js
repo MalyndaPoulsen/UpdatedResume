@@ -3,22 +3,38 @@
 (function () {
     angular.module("UpdatedResume")
         .component('secondComponents', {
-            templateUrl: 'components/second-components.html'
+            templateUrl: 'components/second-components.html',
+            controller: PortfolioController,
         })
 
-$(function(){
-   // See if this is a touch device
-   if ('ontouchstart' in window)
-   {
-      // Set the correct [touchscreen] body class
-      $('portfolio').removeClass('no-touch').addClass('touch');
-     
-      // Add the touch toggle to show text when tapped
-      $('div.boxInner img').click(function(){
-         $(this).closest('.boxInner').toggleClass('touchFocus');
-      });
-   }
+    function PortfolioController() {
+        var pc = this;
+
+
+       $.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        $(this).addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
 });
-// </script>
+        var waypoint6 = new Waypoint({
+            element: document.getElementById('horse-5-progress'),
+            handler: function (direction) {
+                if (direction === 'down') {
+                    $('#bookStore').animateCss('bounceInLeft');
+                     $('#slap').animateCss('bounceInRight');
+                      $('#todo').animateCss('zoomInDown');
+                       $('#CSS').animateCss('bounceInDown');
+                        $('#musicStore').animateCss('zoomIn');
+                         $('#Pop-Up').animateCss('slideInleft');
+                          $('#zooKeeper').animateCss('rollIn');
+                          $('#Pop-UpDevil').animateCss('zoomInUp');
+                }
+            }
+        })
+    }
+
 
 }());
