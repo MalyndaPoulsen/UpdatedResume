@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, body, p{
 }
 .navbar h1{
         font-family: 'Mrs Saint Delafield', cursive;
+        margin-bottom: 15px;
 }
 .nav{
     margin-top: -15px;
@@ -227,6 +228,10 @@ margin-left: 5px;
     border: 1px solid white;
     opacity: .8;
     background-color: white;
+}
+#port-buttons span{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .btn{
