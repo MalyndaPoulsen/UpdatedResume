@@ -9,57 +9,42 @@
 
     function ExperienceController() {
         var ac = this;
-        var num = -8;
         var numb = 0;
         var starter = 0;
 
         var paramsArray = [{
-            id: 1,
-            num: 81,
-            numb: 93,
-            start: 0,
+            id: 1,  
+            numb: 93,  
             starter: 0,
         },
             {
-                id: 2,
-                num: 66,
+                id: 2,  
                 numb: 77,
-                start: 0,
                 starter: 0,
             },
             {
                 id: 3,
-                num: 37,
-                numb: 46,
-                start: 0,
+                numb: 46,   
                 starter: 0,
             },
             {
                 id: 4,
-                num: 50,
-                numb: 60,
-                start: 0,
+                numb: 60, 
                 starter: 0,
             },
             {
                 id: 5,
-                num: 70,
                 numb: 81,
-                start: 0,
                 starter: 0,
             },
             {
                 id: 6,
-                num: 36,
                 numb: 45,
-                start: 0,
                 starter: 0,
             },
             {
-                id: 7,
-                num: 88,
-                numb: 100,
-                start: 0,
+                id: 7,  
+                numb: 100,   
                 starter: 0,
             },
 
@@ -81,9 +66,7 @@
         var reset = function () {
             for (var i = 0; i < paramsArray.length; i++) {
                 var x = paramsArray[i].id;
-              
-                var g = paramsArray[i].starter;
-              
+                var g = paramsArray[i].starter; 
                 ac.resetBar(x, g);
             }
         }

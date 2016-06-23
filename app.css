@@ -1,18 +1,29 @@
 body, html{
 overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, body, p{
+h1, h2, h3, h4, h5, body, p, html{
   font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar h1{
         font-family: 'Mrs Saint Delafield', cursive;
         margin-bottom: 15px;
+        margin-top: -15px;
+        color: grey;
 }
 .nav{
     margin-top: -15px;
 }
 nav .row{
     text-align: center;
+}
+.soc .fa{
+   
+    margin-bottom: -45px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+navbar{
+    padding-top: 15px;
 }
 #main{
    background:black url('/img/GalleryBW4.jpg') no-repeat fixed;
@@ -30,7 +41,12 @@ height: 100%;
    padding-top:0px;
    font-size: 100px;
 }
-
+.head{
+    height: 100px;
+    color: darkgoldenrod;
+    margin: 0 -15 5 -15;
+    padding: 5 5 5 5;
+}
 
 
 #main h2{
@@ -38,6 +54,7 @@ height: 100%;
     text-align: center;
     color: white;
     margin-bottom: 0px;
+    margin-top: 100px;
 }
 #main h3{
       font-family: 'Source Sans Pro', sans-serif;
@@ -67,6 +84,8 @@ height: 100%;
 }
 .navbar-header{
 float: right;
+padding-right: 10px;
+margin-right: 0px;
 }
 .collapse li{
     text-align: center;
@@ -108,7 +127,7 @@ float: right;
     color: lightgrey;
       /*color:goldenrod;*/
    font-family: 'Mrs Saint Delafield', cursive;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
     
 }
 #work .row{
@@ -234,7 +253,7 @@ margin-left: 5px;
     padding-bottom: 5px;
 }
 
-.btn{
+.main-btn{
    
 position: absolute;
 /*border: 2px solid blac;*/
@@ -254,7 +273,7 @@ padding-right: 5px;
 margin-right: 5px;
 margin-left: 5px;
 }
-.btn:hover{
+.main-btn:hover{
     color: white;
     background: black;
     border: white;
@@ -414,4 +433,56 @@ animation-iteration-count: 1;
 .my-contact{
     margin-bottom: 45px;
     margin-top: 0px;
+}
+.experience{
+  
+    text-align: left;
+  
+}
+.experience .head{
+    text-align: left;
+}
+.experience li{
+    text-align: left;
+}
+
+.row ul{
+    list-style-type: none;
+}
+.header h2{
+    margin-top: 75px;
+}
+#social links{
+    display: inline-block;
+    color: black;
+}
+.name h1{
+    margin-top: 10px;
+}
+nav ul{
+  list-style: none; 
+  margin: 0 10px; 
+  padding: 0; 
+}
+.list-inline li .btn{
+    display: inline-block;
+margin-left: 35px;
+color: white;
+background-color: transparent;
+  padding: 15px 10px; 
+  font-weight: 800; 
+}
+#social{
+    background-color: black;
+    height: 60px;
+    color: white;
+    margin-top: 20px;
+}
+#social .fa{
+    margin-top: 6px;
+    padding-top: 10px;
+}
+.num{
+    text-align: center;
+    margin-top: 20px;
 }
