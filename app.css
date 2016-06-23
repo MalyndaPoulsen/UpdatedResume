@@ -4,6 +4,15 @@ overflow-x: hidden;
 h1, h2, h3, h4, h5, body, p{
   font-family: 'Source Sans Pro', sans-serif;
 }
+.navbar h1{
+        font-family: 'Mrs Saint Delafield', cursive;
+}
+.nav{
+    margin-top: -15px;
+}
+nav .row{
+    text-align: center;
+}
 #main{
    background:black url('/img/GalleryBW4.jpg') no-repeat fixed;
  -webkit-background-size: cover;
@@ -42,7 +51,7 @@ height: 100%;
     font-family: 'Mrs Saint Delafield', cursive;
 }
 /*navbar*/
-/*.navbar{
+.navbar{
     background-color: black;
 }
 .list-inline{
@@ -51,23 +60,30 @@ height: 100%;
     padding-left: 0px;
 }
 .list-inline li{
-  
+
     margin-left: -15px;
     padding-left: 0px;
 }
-
-
+.navbar-header{
+float: right;
+}
+.collapse li{
+    text-align: center;
+}
 
 #heading h1{
    color: e7ae22;
    padding-top:120px;
    font-size: 80px;
-
    }
    #heading p{
    color: grey;
    margin-top:0;
    font-size: 20px;
+   }
+   .nav li{
+       margin-top: -35px;
+       padding-top: 0px;
    }
    .nav a{
        color: grey;
@@ -78,7 +94,7 @@ height: 100%;
       color:goldenrod;
    }
 
-   #heading{
+   /*#heading{
        text-align:center;
        padding-top:150px;
    }*/
@@ -186,6 +202,10 @@ animation-iteration-count: 1;
 #port-buttons{
       display: inline-block;
 }
+#port-button .i{
+    padding: 10 10 10 10;
+    color: red;
+}
 
 #port-buttons .btn{
 /*position: absolute;*/
@@ -198,9 +218,8 @@ color: black;
 margin-top: 5px;
 margin-bottom: 10px;
 height: 35px;
-width: 70px;
-padding-left: 5px;
-padding-right: 5px;
+width: 80px;
+padding: 5 5 5 5;
 margin-right: 5px;
 margin-left: 5px;
 }
