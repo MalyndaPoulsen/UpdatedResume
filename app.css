@@ -23,13 +23,13 @@ height: 100%;
 
 
 
-#main h4{
-      font-family: 'Source Sans Pro', sans-serif;
+#main h2{
+      font-family: 'Mrs Saint Delafield', cursive;
     text-align: center;
     color: white;
     margin-bottom: 0px;
 }
-#main h5{
+#main h3{
       font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     color: white;
@@ -211,15 +211,20 @@ margin-left: 5px;
 }
 
 .btn{
+   
 position: absolute;
-border: 1px solid goldenrod;
-background: transparent;
+/*border: 2px solid blac;*/
+background: white;
+opacity: .1;
 border-radius: 5px;
 font-size: 200%;
-color: goldenrod;
+color: black;
 margin-top: 20px;
+margin-bottom: 20px;
 height: 80px;
 width: 160px;
+padding-top: 17px;
+padding-bottom: 17px;
 padding-left: 5px;
 padding-right: 5px;
 margin-right: 5px;
@@ -227,6 +232,7 @@ margin-left: 5px;
 }
 .btn:hover{
     color: white;
+    background: black;
     border: white;
 }
 .btn-group{
@@ -234,6 +240,7 @@ margin-left: 5px;
 }
 #buttons{
     text-align: center;
+   
 }
 
 
@@ -370,10 +377,17 @@ animation-duration: 2s;
 animation-delay: 3s;
 animation-iteration-count: 1;
 }
-/*#contact{
-    border: 2px solid darkgoldenrod;
-   margin-right: -15px;
-   margin-left: -15px;
-   margin-top: 0px;  
-   padding: 0 0 0 0; 
-}*/
+#contact-me div, h4, h5, h2{
+  text-align: center;
+  
+  padding-bottom: 0px;
+}
+#contact-me h2{
+    color:goldenrod;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 100px;
+}
+.my-contact{
+    margin-bottom: 45px;
+    margin-top: 0px;
+}
