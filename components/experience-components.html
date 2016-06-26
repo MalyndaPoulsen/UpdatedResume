@@ -9,80 +9,66 @@
 					<h1 class="module-title font-alt">About</h1>
 
 					<div class="module-subtitle font-serif">
-						<em>I am passionate about creating cool things!</em>
+						<em>"All of us, at some point in life, get brilliant ideas...only a few of us have the courage to take the next step."</em>
+						<em>-Manoj Arora</em><br>
+					
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div id="sign" class="col-xs-12 col-md-6">
 
-					<div class="education">
+					<div ng-show="!show" class="education">
 						<div><img src="img/picofme.jpg" alt="Picture of MaLynda Poulsen"></div>
 						<div class="caption">
 							<h3>Education</h3>
 							<p>Front-End Web Develpment &nbsp; &nbsp; Boise Code Works</p>
 							<p>MFA &nbsp; &nbsp; Boise State University</p>
 						</div>
+						<a ng-click="show = !show">
+							<p>To read more...</p>
+						</a>
+					</div>
+
+
+
+
+
+					<div class="narrative" ng-show="show">
+
+						<p>The following are just a few of my strengths:</p><br>
+						<ul>
+
+							<li>
+								Use GitHub for version control.
+							</li><br>
+							<li>
+								Strong understanding of “Object-Oriented Programming”.
+							</li><br>
+							<li>
+								Collaboratively minded and able to both embrace SCRUM methodology and work in an “agile” environment.
+							</li><br>
+
+							<li>
+								A conceptual thinker, skilled in creative problem solving, particularly when geared towards “result oriented” outcomes.
+							</li><br>
+
+							<li>
+								An excellent communicator (visually, verbally, and in writing).
+							</li><br>
+							<li>
+								Detail-oriented, organized, and able to maintain a positive attitude in stressful situations.
+							</li><br>
+							<li>				
+							Quick to learn new technologies and I am continually adding new skills and languages to my repertoire.</li><br>
+						<li>Extremely adept at Photoshop and familiar with the Adobe Suite software, understand responsive design, and can
+							design for both mobile and web applications, with or without bootstrap.</li>
+						</ul>
+
+				
+
 					</div>
 				</div>
-
-				<!--<div class="about col-sm-6">
-                    <div id="image" class="row">
-<img src="/img/picofme.jpg" alt="">
-
-                    </div>-->
-				<!--
-					<p>
-						With over 20 years of experience in design, web development, education, and retail management , my diverse skill set make
-						me unique and highly adaptable. My portfolio demonstrates visual design thinking and proficiency in a variety of formats.
-						I am extremely adept at Photoshop and familiar with the Adobe Suite software, understand responsive design, and can
-						design for both mobile and web applications, with or without bootstrap.</p>
-					<p>
-						I am quick to learn new technologies and am continually adding new skills and languages to my repertoire.</p>
-					<p>The following are just a few of my strengths:</p>
-
-					<ul>
-						<li>
-							Proficient in HTML/Javascript/CSS/ Bootstrap/Angular/jQuery, and am able to prototype in these mediums.
-						</li>
-						<li>
-							Use GitHub for version control.
-						</li>
-						<li>
-							Strong understanding of “Object-Oriented Programming.”
-						</li>
-						<li>
-							Collaboratively minded and able to both embrace SCRUM methodology and work in an “agile” environment.
-						</li>
-
-						<li>
-							A conceptual thinker, skilled in creative problem solving, particularly when geared towards “result oriented” outcomes.
-						</li>
-
-						<li>
-							An excellent communicator (visually, verbally, and in writing).
-						</li>
-						<li>
-							Detail-oriented, organized, and able to maintain a positive attitude in stressful situations.
-						</li>
-						<li>
-							Possess exceptional drawing skills.
-						</li>
-						<li>Demonstrate integrity and accountability in all that I do.</li>
-					</ul>
-					<a ng-click="show = !show">
-						<p>To read more...</p>
-					</a>
-
-					<div ng-show="show">
-						<p>I gained valuable experience from each professional opportunity and have obtained a vast skill set, both technically
-							and organizationally. Within both public and private organizations, I have become adept at navigating all sorts of
-							individuals in varied settings. I strive for collaboration, collegiality, and respect diverse ideas and opinions in
-							all I undertake. My decade of management experience combined with web development skills and eight years of teaching
-							in visual art foundations, makes me uniquely qualified for positions that require both design and development skills.</p>
-					</div>-->
-				<!--</div>-->
-
 				<!-- SKILLS -->
 				<div id="race" class="col-xs-12 col-md-6">
 					<!--<div class="race-box">-->
@@ -191,7 +177,7 @@
 					</div>
 
 
-			
+
 				</div>
 			</div>
 		</div>
