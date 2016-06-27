@@ -53,15 +53,15 @@ height: 100%;
    margin-top:0;
    font-size: 20px;
    }
-
+/*
    .nav a{
        color: grey;
-        background-color:transparent !important;
+        background-color:white;
    }
    .nav a:hover{
-       background-color:transparent !important;
-      color:goldenrod;
-   }
+       background-color:black;
+      color:white;
+   }*/
 
   
 #work{
@@ -160,39 +160,23 @@ margin-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.navbar{
+background: black;
+position: fixed;
+z-index: 999;
+    text-align: right;
+    padding-right: 20px;
+}
 
-.main-btn{  
+
+nav li{  
 position: absolute;
-left: 13%;
-top: 13%;
-/*border: 2px solid blac;*/
-background: white;
-opacity: .1;
+background: black;
 border-radius: 5px;
-font-size: 200%;
-color: black;
-/*margin-top: 20px;
-margin-bottom: 20px;*/
-height: 80px;
-width: 160px;
-/*padding-top: 17px;
-padding-bottom: 17px;
-padding-left: 5px;
-padding-right: 5px;
-margin-right: 5px;
-margin-left: 5px;*/
+font-size: 100%;
+color: white;
 }
-.main-btn:hover{
-    color: white;
-    background: black;
-    border: white;
-}
-/*.btn-group{
-    display: inline-block;
-}*/
-#buttons{
-    text-align: center; 
-}
+
 
 
 .progress-bar{
@@ -242,7 +226,7 @@ margin-left: 5px;*/
 #race{
     margin-top: 55px;
     position: relative;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     margin-left: 0px;
     margin-right:0px;
@@ -382,28 +366,6 @@ animation-iteration-count: 1;
 .name h1{
     margin-top: 10px;
    
-}
-.navbar{
-background: transparent;
-position: fixed;
-}
-.navbar .container{
-    position: absolute;
-    top: 5%;
-    right: 2%;
-}
-.navbar li{
-  list-style: none; 
-  margin: 0 10px; 
-  padding: 0; 
-}
-.list-inline li .btn{
-display: inline-block;
-margin-left: 35px;
-color: white;
-background-color: transparent;
-  padding: 15px 10px; 
-  font-weight: 800; 
 }
 #social{
     background-color: black;
