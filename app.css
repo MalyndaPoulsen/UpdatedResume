@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, body, p, html{
 }
 
 #main{
-   background:black url('../img/GalleryBW4.jpg') no-repeat fixed;
+   background:black url('img/GalleryBW4.jpg') no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
