@@ -98,7 +98,7 @@ height: 100%;
     margin-bottom: 20px;
       text-decoration: none;
 }
-.portfolio-item:hover{
+.portfolio-item img:hover{
     
 background: #161818;
 opacity: .8;
