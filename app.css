@@ -101,6 +101,16 @@ opacity: .8;
   color: black;
 
 }
+#winery{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+}
+#restaurant{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+}
 
 #bookStore{
 animation-duration: 2s;
