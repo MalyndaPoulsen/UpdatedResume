@@ -101,16 +101,6 @@
             }
         })
 
-        // var waypoint4 = new Waypoint({
-        //     element: document.getElementById('about'),
-        //     handler: function (direction) {
-        //         if (direction === 'up') {
-        //             reset();
-        //             getParams();
-        //         } 
-          
-        //     }
-        // })
 
     }
 
