@@ -23,6 +23,8 @@
             element: document.getElementById('horse-5-progress'),
             handler: function (direction) {
                 if (direction === 'down') {
+                       $('#restaurant').animateCss('bounceInRight');
+                       $('#winery').animateCss('bounceInDown');
                     $('#bookStore').animateCss('bounceInLeft');
                      $('#slap').animateCss('bounceInRight');
                       $('#todo').animateCss('zoomInDown');
